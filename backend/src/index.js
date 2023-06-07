@@ -1,6 +1,6 @@
 const express = require("express");
 const { Server } = require("ws");
-const PORT = process.env.PORT || 3010;
+const PORT = process.env.PORT || 3020;
 
 const server = express()
   .use((req, res) => res.send("Hello Ne"))
